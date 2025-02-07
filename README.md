@@ -1,6 +1,6 @@
 # Challenge Amigo Secreto Oracle/Alura One 2025 - G8
 
-!![img-challenge-amigo-secreto](https://github.com/Megalonnix/ChallengeAmigoSecretoOracleOne/blob/master/assets/Img1.jpg)
+![img-challenge-amigo-secreto](https://github.com/Megalonnix/ChallengeAmigoSecretoOracleOne/blob/master/assets/Img1.jpg)
 
 ## Descrição geral do Projeto
 
