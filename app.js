@@ -9,7 +9,7 @@ const arrayAmigos = []
 const reloadListAmigosHtml = () => {
     const listaAmigos = document.getElementById('listaAmigos')
     listaAmigos.innerHTML = ''
-    
+
     arrayAmigos.forEach(amigoRegistrado => {
         const newIdxLista = document.createElement('li')
         newIdxLista.innerText = amigoRegistrado
@@ -30,5 +30,12 @@ const adicionarAmigo = () => {
 }
 
 const sortearAmigo = () => {
-    return 0
+    const amigoSorteado = arrayAmigos[Math.floor(Math.random() * arrayAmigos.length)]
+    const boxResultado = document.getElementById('resultado')
+    boxResultado.innerHTML = ''
+
+    if (arrayAmigos.length > 0)
+        boxResultado.innerHTML = amigoSorteado
+    else 
+        window.alert('Nenhum amigo foi digitado ainda!')
 }
